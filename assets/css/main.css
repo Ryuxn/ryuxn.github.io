@@ -4,7 +4,7 @@
 }
 body {
     font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 300;
     letter-spacing: 4px;
     text-align: center;
@@ -30,10 +30,10 @@ div.main {
     border-radius: 5px;
     text-align: center;
     box-sizing: border-box;
-    padding: 75px 25px;
+    padding: 50px 25px;
     display: inline-block;
-    height: 490px;
-    margin-top: calc(((100vh - 565px) / 2));
+    height: 350px;
+    margin-top: calc(((100vh - 400px) / 2));
 }
 div.main section.photo {
     height: 125px;
